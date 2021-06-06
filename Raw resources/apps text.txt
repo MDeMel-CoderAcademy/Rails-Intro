@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Apps</title>
+</head>
+<body >
+  <h1 >Let&#x27;s Learn Rails</h1>
+  <div >
+    <a href="#" >Our Apps</a>
+    <a href="#" >Contact Us</a>
+  </div>
+  <div >
+    <div >
+      <div >
+        <div >
+          <div ></div>
+          <div >
+            <div>
+              <div >App1</div>
+              <h3 >App1 description<span ></span></h3>
+            </div>
+            <div ></div>
+            <a href="#" >Select</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div >
+      <div >
+        <div >
+          <div ></div>
+          <div >
+            <div>
+              <div >App 2</div>
+              <h3 >App 2 description</h3>
+            </div>
+            <div ></div>
+<a href="#" >Select</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="basic-column w-col w-col-4 w-col-stack">
+      <div class="tag-wrapper">
+        <div class="product-card">
+          <div class="product-card-image product-card-3"></div>
+          <div class="product-card-description">
+            <div>
+              <div class="tagline tagline-promo-40">App 3</div>
+              <h3 class="product-name-title">App 3 description</h3>
+            </div>
+            <div class="price-wrapper"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

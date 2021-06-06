@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Home</title>
+ 
+</head>
+<body>
+  <h1>Let&#x27;s Learn Rails</h1>
+  <div >
+    <a  href="#" >Our Apps</a>
+    <a  href="#" >Contact Us</a>
+  </div>
+  <h2>Welcome<br> to your first &#x27;Rails&#x27; website</h2>
+  <div></div>
+  <div>
+    <div>
+      <p>Today we will learn...</p>
+    </div>
+    <div>
+      <ul role="list" >
+        <li >Rails Views</li>
+        <li >Routing</li>
+        <li >MVC Convention in Rails</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
