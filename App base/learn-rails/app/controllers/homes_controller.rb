@@ -11,7 +11,8 @@ class HomesController < ApplicationController
     def contacts
         if params[:name].present?
         @name = params[:name]
-        @input_statement = "Hi #{@name} Thanks for getting in touch. We will contact you shortly" 
+        @email = params[:email]
+        @input_statement = "Hi #{@name} Thanks for getting in touch. we have sent a correspondence email to #{@email} " 
         end
     end
 

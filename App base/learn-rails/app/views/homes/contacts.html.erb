@@ -21,6 +21,8 @@
   <%= form_tag("/contacts", method: "get") do %>
     <%= label_tag(:q, "Name:") %>
     <%= text_field_tag(:name) %>
+    <%= label_tag(:q, "Email:") %>
+    <%= text_field_tag(:email) %>
     <%= submit_tag("Submit") %>
   <% end %>
 

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'acronyms/app'
   root "homes#index"
   
   get '/apps' => 'homes#apps'
