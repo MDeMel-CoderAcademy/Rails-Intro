@@ -22,12 +22,14 @@
     <% if @show %>
     <div class="w-col w-col-6">
       <ul role="list" class="list-2">
-        <li class="list-item">Rails Views</li>
-        <li class="list-item-2">Routing</li>
-        <li class="list-item-3">MVC Convention in Rails</li>
+       <% @topics.each do |topic| %> 
+        <li class="list-item"> <%= topic  %> </li>
+        <% end %>
       </ul>
     </div>
     <% end %>
   </div>
 </body>
 </html>
+
+<!-- <li class="list-item">Rails Views</li> -->
