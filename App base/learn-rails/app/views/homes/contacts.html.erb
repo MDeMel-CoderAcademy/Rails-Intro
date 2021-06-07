@@ -7,17 +7,15 @@
   <%= stylesheet_link_tag 'mane2.css' %>
 </head>
 <body>
-  <h1>Let&#x27;s Learn Rails</h1>
-  <div >
-  <%= link_to "Home" , root_path  %>
-  <%= link_to "Our Apps" , apps_path %>
+  <h1 class="heading">Let&#x27;s Learn Rails</h1>
+  <div class="w-layout-grid grid-2">
+  <%= link_to "Home" , root_path , id:"node1b" ,class: "button w-button" %>
+  <%= link_to "Our Apps" , apps_path , id:"node1c" ,class: "button w-button" %>
+    
   </div>
-  <h2>Contact us</h2>
-  <div></div>
-  <div>
-    <div>
-      <p>Our Contact features will be posted shortly</p>
-    </div>
-  </div>
+  <h3 class="heading-2">Hi! Please leave you contact info with us </h3>
+  <h3 class="heading-2">We will connect with you shortly... </h3>
+  <div class="container w-container"></div>
+  
 </body>
 </html>
