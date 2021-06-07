@@ -9,6 +9,10 @@ class HomesController < ApplicationController
     end
 
     def contacts
+        if params[:name].present?
+        @name = params[:name]
+        @input_statement = "Hi #{@name} Thanks for getting in touch. We will contact you shortly" 
+        end
     end
 
     def test
