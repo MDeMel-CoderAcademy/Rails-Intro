@@ -1,13 +1,16 @@
 class AcronymsController < ApplicationController
 
-  def app
-    if params[:phrase].present?
-      @sentence = params[:phrase]
-      @array = @sentence.split
-    else
-      @array = [" "]
-    end
+def app
+  @result = ""
 
-    
+  if params[:phrase].present?
+  
+  @result = (params[:phrase].split(/[\s ,\-,\,]/).map{ |x| x[0].capitalize unless x[0] == nil })#.join
+  @result = (@result.map {|word| word << "."}).join
+
   end
+
+
+end
+
 end

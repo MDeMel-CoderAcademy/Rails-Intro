@@ -20,22 +20,23 @@
 <h1>Acronyms app</h1>
 </br>
 
-<%= form_tag("/acronyms/app", method: "get") do %>
-    <%= label_tag(:q, "Phrase:")  %>
-    <%= text_field_tag(:phrase)  %>
-    <%= submit_tag("Submit")  %>
-  <% end %>
 
-  <h3> <%= @sentence %> </h3>
+        <%= form_tag("/acronyms/app", method: "get") do %>
 
-  </br>
-
- <ul role="list" class="list-2">
-       <% @array.each do |word| %> 
-        <span> <h2 style="display:inline"> <%= word[0] + "." %> </h2> </span>
+          <%= label_tag(:phrase, "Phrase:") %>
+          <%= text_field_tag(:phrase) %>
+          </br>
+          <%= label_tag(:rs, "Result:") %>
+          <input type="text" id="rs" name="rs" value="<%= @result %>" readonly>
+          </br>
+          <%= submit_tag("Search") %>
+          
+          
         <% end %>
-
-        </center></div> 
+       
+        
+      
+        </center></div>
 
   
 </body>
