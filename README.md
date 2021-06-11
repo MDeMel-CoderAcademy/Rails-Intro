@@ -347,10 +347,10 @@ Make sure to Sign-up for a Heroku Account before following the steps below.
 - 4. Log in and Create a new app on Heroku
 - 5. Select 'connect to Github as deployment method'
 
-![connect heroku](rdme-pics/heroku1.png )
+![connect heroku](rdme-pics/heroku1.png)
 
 - 6. Connect the correct repository to Heroku App (a succesful connection snapshot is shown below)
 
-![success heroku](rdme-pics/heroku2.png )
+![success heroku](rdme-pics/heroku2.png)
 
 - 7. Click on the 'Deploy Branch' button at the bottom of the page and the website will go online shortly.
